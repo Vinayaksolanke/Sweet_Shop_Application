@@ -1,10 +1,16 @@
-import "./App.css"
-import Navbar from "./Component/Navbar/Navbar"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from "./Pages/Authentication/Login.jsx"
 function App (){
   return (
     <>
-    <h1>Sweet Shop Application</h1>
-    <Navbar/>
+    <BrowserRouter>
+    <Routes>
+      <Route path= "/login" element = {<Login />} />
+        
+         
+    </Routes>
+   
+    </BrowserRouter>
     </>
   )
 
