@@ -13,7 +13,7 @@ sweet-shop-Applicaion/
     │   │   ├── SweetCard.jsx
     │   │   └── SweetCard.css
     │   │
-    │   ├── Modals/
+    │   ├── Menues/
     │   │   ├── DeleteModal.jsx
     │   │   ├── PurchaseModal.jsx
     │   │   └── RestockModal.jsx
