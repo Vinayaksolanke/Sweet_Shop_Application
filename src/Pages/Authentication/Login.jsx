@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import "./Login.css";
+import {Link } from "react-router-dom";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -46,7 +46,7 @@ const Login = () => {
         </button>
 
         <p className="register-link">
-          Don't have an account? <Link to="/register">Register</Link>
+          Don't have an account? <Link to  = "/register">Register</Link>
           
         </p>
       </form>

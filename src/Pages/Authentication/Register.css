@@ -1,0 +1,88 @@
+
+.reg-container {
+  width: 100%;
+    height: 100vh;
+  background:black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reg-box {
+  width:70%;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.reg-title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.reg-form .reg-field {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reg-field label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.reg-field input {
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.reg-btn {
+    display: flex;
+    justify-content: center; 
+ align-items: center;
+  width: 30%;
+  padding: 12px;
+  background: #2b6eff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.2s;
+}
+
+.reg-btn:hover {
+  background: #1f54c4;
+}
+
+.reg-login-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.reg-login-text a {
+  color: #2b6eff;
+  text-decoration: none;
+}
+.reg-row {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+.reg-row .reg-field {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.btn-center {
+  display: flex;
+  justify-content: center;
+}   
